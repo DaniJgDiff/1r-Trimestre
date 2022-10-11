@@ -1,0 +1,38 @@
+Proyecto 1 (Conoce tus herramientas)
+
+Hemos podido encender una led en un arduino y luego hemos podido hacer que se encienda pero cuando le das a un interruptor
+Lo que necesitabamos fue una led, interruptor y una resistencia (más los cables de puente)
+Los cables de puente pasaban la energia y la resistencia controlaba esa energía para que no diera más de lo que necesitaba la led
+
+Proyecto 2 (Interfaz de nave espacial)
+
+Hemos hecho algo parecido al proyecto 1, tuvimos que encender 2-3 leds con un solo interruptor
+Para eso necesitabamos unas leds, resistencias, el interruptor y los cables de puente 
+Conectamos las leds al arduino junto con el botón poniendo también las resistencias, y con el código bien puesto lo hicimos funcionar bien
+
+Proyecto 5 (Indicador de estado de ánimo)
+
+Esto fue algo diferente a los otros 2 proyectos, era mover un servomotor con una cosa llamada potenciómetro
+Utilizamos bastantes cables de puente, 2 condensadores, un servomotor y un potenciómetro
+Conectamos los cables de puente al arduino y les damos energia al servomotor y al potenciómetro, gracias a el código y a que los condensadores pueden almacenar energia funciona el circuito
+
+Proyecto 7 (Instrumento de teclado)
+
+Este fue divertido, tuvimos que hacer que los interruptores hicieran sonido como si fueran unas notas de un teclado
+Pusimos 4 interruptores, 4 resistencias, un Piezo y como no los cables de puente
+El Piezo estaba conectado al arduino y también los interruptores con los cables de puente y las resistencias que pusimos, lo que faltó era el código
+En el código pusimos que cada interruptor hiciera un sonido diferente al de los otros para que sonara en el Piezo
+
+Proyecto 9 (Molinillo motorizado) 
+
+-
+
+Proyecto 10 (zoótropo)
+
+- 
+
+Proyecto 12 (Cerrojo de puerta)
+
+-
+
+
