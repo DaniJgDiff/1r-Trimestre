@@ -9,6 +9,7 @@ Los cables de puente pasaban la energia y la resistencia controlaba esa energía
 Hemos hecho algo parecido al proyecto 1, tuvimos que encender 2-3 leds con un solo interruptor
 Para eso necesitabamos unas leds, resistencias, el interruptor y los cables de puente 
 Conectamos las leds al arduino junto con el botón poniendo también las resistencias, y con el código bien puesto lo hicimos funcionar bien
+La luz verde se apgaba mientras que las otras 2 hacían como un parpadeo
 
 - Proyecto 5 (Indicador de estado de ánimo)
 
@@ -35,8 +36,6 @@ En este proyecto salió rápido aunque con unos pequeños errores, tenía que mo
 Utilizando una batería, motor de cc, potenciómetro, un puente H, 2 resistencias y 2 interruptores
 Colocando todo esto bien más el código lo conseguiremos girar y funcionará bien
 
-- Proyecto 12 (Cerrojo de puerta)
+- [Opcional] Proyecto 12 (Cerrojo de puerta)
 
-
-
-
+No se puede hacer
