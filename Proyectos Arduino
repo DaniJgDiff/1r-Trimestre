@@ -9,13 +9,31 @@ Los cables de puente pasaban la energia y la resistencia controlaba esa energía
 Hemos hecho algo parecido al proyecto 1, tuvimos que encender 2-3 leds con un solo interruptor
 Para eso necesitabamos unas leds, resistencias, el interruptor y los cables de puente 
 Conectamos las leds al arduino junto con el botón poniendo también las resistencias, y con el código bien puesto lo hicimos funcionar bien
-La luz verde se apgaba mientras que las otras 2 hacían como un parpadeo
+La luz verde se apagaba mientras que las otras 2 hacían como un parpadeo
+
+- Proyecto 3 (Love-o-Meter)
+
+En este proyecto hemos podido encender 3 leds solamente con la temperatura, cuanta más temperatura más luces se encendían
+Necesitabamos unas 3 leds, 3 resistencias, un sensor de temperatura y los cables de puente
+Las resistencias las poniamos con las leds para controlar la energia que pasaba y ponemos el sensor en la otra esquina y lo conectamos
+
+- Proyecto 4 (Lámpara de varios colores)
+
+Ahora era poner unos fototransitores para poder cambiar el color de la luz de un Led ajustando los 3 fototransitores
+He utilizado unas 6 resistencias, 3 fototransitores, una led con 4 pies y los cables de puente
+Con el código ajustamos los colores que podemos poner en los transitores cada uno diferente y luego poder mezclarlos en una sola led
 
 - Proyecto 5 (Indicador de estado de ánimo)
 
 Esto fue algo diferente a los otros 2 proyectos, era mover un servomotor con una cosa llamada potenciómetro
 Utilizamos bastantes cables de puente, 2 condensadores, un servomotor y un potenciómetro
 Conectamos los cables de puente al arduino y les damos energia al servomotor y al potenciómetro, gracias a el código y a que los condensadores pueden almacenar energia funciona el circuito
+
+- Proyecto 6 (Theremin óptico)
+
+Aquí hemos hecho sonar un piezo gracias a un fototransitor y una resistencia haciendo que suene un ruido bastante fuerte
+Necesitbamos solamente cables de puente, una resistemcia un fototransitor y un piezo
+Conectamos el piezo con los cables de puente y lo mismo con el fototransitor y ponemos el código
 
 - Proyecto 7 (Instrumento de teclado)
 
@@ -32,7 +50,7 @@ Ponemos lo positivo en lo positivo y lo negativo en lo negativo en la batería, 
 
 - Proyecto 10 (zoótropo)
 
-En este proyecto salió rápido aunque con unos pequeños errores, tenía que mover el botón pulsando los interruptores y moviendo el potenciómetro
+En este proyecto salió rápido aunque con unos pequeños errores, tenía que mover el motor de cc pulsando los interruptores y moviendo el potenciómetro
 Utilizando una batería, motor de cc, potenciómetro, un puente H, 2 resistencias y 2 interruptores
 Colocando todo esto bien más el código lo conseguiremos girar y funcionará bien
 
