@@ -1,0 +1,33 @@
+Aquí hemos puesto 2 motores con 2 interruptores y hemos tenido que hacer funcionar los motores los 2 a la vez con los 2 interruptores a la vez
+He utilizado 2 motores de cc, 2 interruptores, 2 resistencias, 2 transitores, una bateria, 2 diodos y los cables de puente
+Conectando los 2 interruptores a los motores y haciendolos funcionar con el código más los cables de punte y la bateria deberia funcionar
+
+Código:
+
+const int switchPin = 2;
+const int motorPin = 9;
+const int switchPin2 = 3;
+const int motorPin2 = 10;
+
+int switchState = 0;
+
+void setup() {
+  pinMode(motorPin, OUTPUT);
+  pinMode(switchPin, INPUT);
+  pinMode(motorPin2, OUTPUT);
+  pinMode(switchPin2, INPUT);
+}
+
+void loop(){
+  switchState = digitalRead(switchPin) && digitalRead(switchPin2);
+
+  if (switchState == HIGH) {
+    digitalWrite(motorPin, HIGH);
+    digitalWrite(motorPin2, HIGH);
+  }
+  else {
+    digitalWrite(motorPin, LOW);
+    digitalWrite(motorPin2, LOW);
+  }
+}
+  
