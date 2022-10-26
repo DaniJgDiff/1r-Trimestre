@@ -1,0 +1,38 @@
+Hemos tenido que hacer una parte del código nosotrps como en el siguiente que haremos (Modificación de Proyecto 9), teníamos que hacer que las luces hicieran como un parpadeo al mantener los 2 interruptores pulsados
+hemos utilizado 3 leds, 6 resistencias, 2 interruptores y los cables de puente
+con el código juntamos los 2 interruptores para que funcionen juntos y modificamos la duración de por cuanto se enciende la led y debería funcionar bien
+
+Código:
+
+int switchState = 0;
+
+void setup(){
+  pinMode(3, OUTPUT);
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(2, INPUT);
+}
+void loop(){
+  switchState = digitalRead(7) && digitalRead(2);
+
+  if (switchState == LOW) {
+    digitalWrite(3, LOW);
+    digitalWrite(4, LOW);
+    digitalWrite(5, LOW);  
+  }
+
+  else {
+    digitalWrite(3, LOW);
+    digitalWrite(4, LOW);
+    digitalWrite(5, HIGH);
+    delay(400);
+    digitalWrite(3, LOW);
+    digitalWrite(4, HIGH);
+    digitalWrite(5, LOW);
+    delay(400);
+    digitalWrite(3, HIGH);
+    digitalWrite(4, LOW);
+    digitalWrite(5, LOW);
+    delay(400);
+  }
+}
