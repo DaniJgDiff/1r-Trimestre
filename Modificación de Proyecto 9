@@ -1,6 +1,6 @@
 Aquí hemos puesto 2 motores con 2 interruptores y hemos tenido que hacer funcionar los motores los 2 a la vez con los 2 interruptores a la vez
 He utilizado 2 motores de cc, 2 interruptores, 2 resistencias, 2 transitores, una bateria, 2 diodos y los cables de puente
-Conectando los 2 interruptores a los motores y haciendolos funcionar con el código más los cables de punte y la bateria deberia funcionar
+Conectando los 2 interruptores a los motores y haciendolos funcionar con el código más los cables de punte y la bateria deberia funcionar (eso sí, con los diodos y las resistencias)
 
 Código:
 
