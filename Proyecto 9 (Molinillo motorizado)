@@ -1,0 +1,27 @@
+Este me confundió un poco, era mover la rueda del motor poniendo una batería también
+En este he utilizado un motor de cc, 1 resistencia, 1 interruptor, 1 diodo, 1 transitor, una batería y varios cables de puente
+Ponemos lo positivo en lo positivo y lo negativo en lo negativo en la batería, conectamos los cables de positivo y negativo del motor de cc al lado del diodo, en el otro lado ponemos el transitor y un interruptor al lado de una resistencia, al conectar todo y tener todo el código correcto debería girar el motor al picarle al interruptor
+
+Código:
+
+const int switchPin = 2;
+const int motorPin = 9;
+
+int switchState = 0;
+
+void setup() {
+  pinMode(motorPin, OUTPUT);
+  pinMode(switchPin, INPUT);
+}
+
+void loop(){
+  switchState = digitalRead(switchPin);
+
+  if (switchState == HIGH) {
+    digitalWrite(motorPin, HIGH);
+  }
+  else {
+    digitalWrite(motorPin, LOW);
+  }
+}
+  
