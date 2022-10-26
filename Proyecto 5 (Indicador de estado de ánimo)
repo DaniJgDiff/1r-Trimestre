@@ -1,0 +1,30 @@
+Esto fue algo diferente a los otros 2 proyectos, era mover un servomotor con una cosa llamada potenciómetro
+Utilizamos bastantes cables de puente, 2 condensadores, un servomotor y un potenciómetro
+Conectamos los cables de puente al arduino y les damos energia al servomotor y al potenciómetro, gracias a el código y a que los condensadores pueden almacenar energia funciona el circuito
+
+Código:
+
+#include <Servo.h>
+
+Servo myServo;
+
+int const potPin = A0;
+
+int potVal;
+int angle;
+
+void setup() {
+  myServo.attach(9);
+  Serial.begin(9600);
+}
+
+void loop() {
+  potVal = analogRead(potPin);
+  Serial.print("potVal: ");
+  Serial.print(potVal);
+  angle = map(potVal, 0, 1023, 0, 179);
+  Serial.print(", angle: ");
+  Serial.println(angle);
+  myServo.write(angle);
+  delay(15);
+}
