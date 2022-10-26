@@ -1,0 +1,18 @@
+Hemos podido encender una led en un arduino y luego hemos podido hacer que se encienda pero cuando le das a un interruptor
+Lo que necesitabamos fue una led, interruptor y una resistencia (más los cables de puente)
+Los cables de puente pasaban la energia y la resistencia controlaba esa energía para que no diera más de lo que necesitaba la led
+
+Código:
+
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); 
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); 
+}
